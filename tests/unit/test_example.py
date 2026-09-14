@@ -1,15 +1,16 @@
-
 from src.example import square
 import pytest
 
+
 @pytest.mark.unit
 def test_square():
+
     # Arrange
     test_data = 10
     expected = 100
 
-    #Act
+    # Act
     actual = square(test_data)
 
-    #Assert
+    # Assert
     assert actual == expected
