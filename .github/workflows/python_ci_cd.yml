@@ -32,6 +32,6 @@ jobs:
 
     # 5. Kör tester
     - name: Kör testerna med pytest
-      run: pytest --maxfail=2 --disable-warnings -q
+      run: pytest --maxfail=1 --disable-warnings -q
 
 # för CD behöver vi flera steg
