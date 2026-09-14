@@ -17,7 +17,7 @@ jobs:
 
     # 2. Installera Python
     - name: Inställningar för Python
-      uses: actions(setup-python@v7
+      uses: actions/setup-python@v7
 
     #3. Installera beroenden
     - name: Installera beroenden
